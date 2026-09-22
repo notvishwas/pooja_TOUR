@@ -1,0 +1,5 @@
+<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" fill="#efe8dc"/><circle cx="654" cy="94" r="54" fill="#e4c786"/>
+  <path d="M0 400c160-65 294-45 416 22 124 68 254 67 384 7v91H0Z" fill="#d9c19b"/><path d="M210 410h380v-45h-38c-9-90-57-145-152-164-95 19-143 74-152 164h-38Z" fill="#f6fafd" stroke="#8b641e" stroke-width="9"/>
+  <path d="M367 410v-105c0-27 15-45 33-45s33 18 33 45v105Z" fill="#8b641e"/><path d="M272 365h62v-74h-62Zm194 0h62v-74h-62Z" fill="#c9983c"/><text x="48" y="75" fill="#79541f" font-family="Georgia,serif" font-size="34" font-weight="700">GOLDEN TRIANGLE</text>
+</svg>

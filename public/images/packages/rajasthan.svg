@@ -1,0 +1,5 @@
+<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" fill="#f2e7d1"/><circle cx="650" cy="100" r="58" fill="#c9983c"/>
+  <path d="M0 390c170-70 310-38 440 25 126 62 246 59 360 5v100H0Z" fill="#d6b77f"/><path d="M185 380V205h55v-42h52v42h61v175Zm205 0V248h45v-38h50v38h52v132Z" fill="#8b641e"/>
+  <path d="M150 380h430v45H150Z" fill="#79541f"/><g fill="#f2e7d1"><rect x="226" y="260" width="48" height="120" rx="24"/><rect x="427" y="292" width="42" height="88" rx="21"/></g><text x="48" y="75" fill="#79541f" font-family="Georgia,serif" font-size="34" font-weight="700">RAJASTHAN</text>
+</svg>

@@ -1,0 +1,5 @@
+<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" fill="#eee5ea"/><circle cx="650" cy="102" r="53" fill="#e4c786"/>
+  <path d="M0 345 184 128l150 180L480 72l320 312v136H0Z" fill="#a99bad"/><path d="m184 128 55 66-35-13-20 22-21-21-39 15Z" fill="#fff"/><path d="m480 72 86 84-51-19-34 31-35-30-52 22Z" fill="#fff"/>
+  <path d="M0 412c180-38 300-22 410 42 98 57 236 45 390-17v83H0Z" fill="#70415c"/><path d="M0 450c220-35 372 45 800 0v70H0Z" fill="#dcecf7"/><text x="48" y="75" fill="#70415c" font-family="Georgia,serif" font-size="34" font-weight="700">KASHMIR</text>
+</svg>

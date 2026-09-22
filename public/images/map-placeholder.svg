@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Office map placeholder</title>
+  <desc id="desc">A decorative street map with a location marker indicating that the final office location is pending.</desc>
+  <rect width="1200" height="700" fill="#e7eff6"/>
+  <g fill="none" stroke="#fff" stroke-width="34">
+    <path d="M-50 170 330 330 640 170 1250 310"/>
+    <path d="M80 760 290 450 610 530 790 260 1100-30"/>
+    <path d="M450-50 480 250 360 740"/>
+  </g>
+  <g fill="none" stroke="#b8c7d6" stroke-width="8">
+    <path d="M-50 170 330 330 640 170 1250 310"/>
+    <path d="M80 760 290 450 610 530 790 260 1100-30"/>
+    <path d="M450-50 480 250 360 740"/>
+  </g>
+  <path d="M600 190c-88 0-160 72-160 160 0 122 160 260 160 260s160-138 160-260c0-88-72-160-160-160Z" fill="#1a365d"/>
+  <circle cx="600" cy="350" r="58" fill="#c9983c"/>
+  <rect x="400" y="610" width="400" height="58" rx="29" fill="#fff" opacity=".95"/>
+  <text x="600" y="648" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1a365d">OFFICE LOCATION TO BE CONFIRMED</text>
+</svg>

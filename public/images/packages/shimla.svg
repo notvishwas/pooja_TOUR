@@ -1,0 +1,5 @@
+<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" fill="#dfece5"/><circle cx="655" cy="92" r="52" fill="#e4c786"/>
+  <path d="M0 365 180 190l145 126 170-190 305 270v124H0Z" fill="#7da08b"/><path d="M0 420 240 290l122 112 160-133 278 166v85H0Z" fill="#28583d"/>
+  <g fill="#102540"><path d="m110 348 42-105 42 105Z"/><rect x="147" y="338" width="10" height="80"/><path d="m650 350 48-122 48 122Z"/><rect x="693" y="340" width="10" height="82"/></g><text x="48" y="75" fill="#28583d" font-family="Georgia,serif" font-size="34" font-weight="700">SHIMLA</text>
+</svg>

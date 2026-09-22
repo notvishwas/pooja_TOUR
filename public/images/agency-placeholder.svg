@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Travel planning workspace illustration</title>
+  <desc id="desc">A desk with a map, suitcase, compass, and mountain view.</desc>
+  <rect width="1200" height="800" fill="#e7eff6"/>
+  <rect y="520" width="1200" height="280" fill="#d5b46d"/>
+  <circle cx="980" cy="140" r="72" fill="#e4c786"/>
+  <path d="M0 470 220 210 410 420 620 150 900 470Z" fill="#8faac1"/>
+  <path d="m430 470 190-320 280 320Z" fill="#315780"/>
+  <rect x="130" y="390" width="380" height="250" rx="24" fill="#fff"/>
+  <path d="M180 470c85-60 170-60 280 0M180 540c95-45 180-45 280 0" fill="none" stroke="#c9983c" stroke-width="12" stroke-linecap="round"/>
+  <rect x="720" y="390" width="270" height="260" rx="30" fill="#1a365d"/>
+  <path d="M790 390v-45c0-55 130-55 130 0v45" fill="none" stroke="#1a365d" stroke-width="24"/>
+  <circle cx="610" cy="575" r="82" fill="#fff"/>
+  <circle cx="610" cy="575" r="55" fill="none" stroke="#c9983c" stroke-width="12"/>
+  <path d="m610 525 18 50-18 50-18-50Z" fill="#1a365d"/>
+</svg>

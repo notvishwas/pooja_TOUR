@@ -1,0 +1,5 @@
+<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" fill="#e8edf0"/><circle cx="650" cy="100" r="52" fill="#e4c786"/>
+  <path d="M0 355 205 115l150 180L500 72l300 310v138H0Z" fill="#9aaab4"/><path d="m205 115 58 69-38-14-20 23-22-22-40 16Z" fill="#fff"/><path d="m500 72 80 83-49-18-30 30-34-29-48 21Z" fill="#fff"/>
+  <path d="M0 420 250 275l115 112 159-132 276 176v89H0Z" fill="#315780"/><path d="M315 405h170v-105h-35v-54h-100v54h-35Zm55-105 30-48 30 48Z" fill="#f2e7d1"/><rect x="382" y="342" width="38" height="63" rx="19" fill="#8b641e"/><text x="48" y="75" fill="#1a365d" font-family="Georgia,serif" font-size="34" font-weight="700">CHAR DHAM</text>
+</svg>

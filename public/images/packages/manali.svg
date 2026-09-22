@@ -1,0 +1,5 @@
+<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" fill="#dcecf7"/><circle cx="650" cy="105" r="55" fill="#e4c786"/>
+  <path d="M0 385 205 125l150 185L500 88l300 330v102H0Z" fill="#8ba8be"/><path d="m205 125 48 59-31-12-18 20-20-19-34 14Z" fill="#f6fafd"/><path d="m500 88 72 79-43-17-28 28-29-27-44 19Z" fill="#f6fafd"/>
+  <path d="M0 420 236 270l130 118 150-125 284 173v84H0Z" fill="#1a365d"/><text x="48" y="75" fill="#1a365d" font-family="Georgia,serif" font-size="34" font-weight="700">MANALI</text>
+</svg>

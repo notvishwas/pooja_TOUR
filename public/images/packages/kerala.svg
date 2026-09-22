@@ -1,0 +1,5 @@
+<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" fill="#e7ead8"/><circle cx="654" cy="96" r="55" fill="#e4c786"/>
+  <path d="M0 340c160-98 290-89 407 7 108 89 239 93 393 18v155H0Z" fill="#84945c"/><path d="M0 420c190-48 330 38 492 18 120-15 221-10 308 18v64H0Z" fill="#75b5ad"/>
+  <path d="M175 408c5-115 46-190 123-224-48 69-65 144-53 224Z" fill="#596326"/><path d="M268 211c-62-35-116-32-158 9 66-13 119 2 158 43Zm0 0c41-61 91-88 150-80-58 24-96 62-115 115Z" fill="#596326"/><path d="M470 405h170l-25-55H495Z" fill="#102540"/><text x="48" y="75" fill="#596326" font-family="Georgia,serif" font-size="34" font-weight="700">KERALA</text>
+</svg>

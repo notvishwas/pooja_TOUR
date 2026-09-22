@@ -1,0 +1,5 @@
+<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="520" fill="#dcefed"/><circle cx="645" cy="105" r="60" fill="#e4c786"/>
+  <path d="M0 360c165-48 284-34 405 18 144 62 266 61 395 3v139H0Z" fill="#63aaa4"/><path d="M0 418c170-28 282 47 430 17 128-26 227-20 370 24v61H0Z" fill="#f6fafd"/>
+  <path d="M180 385c10-100 52-166 130-202-52 64-71 127-64 202Z" fill="#17605b"/><path d="M280 213c-68-33-120-31-158 3 66-7 117 9 158 48Zm0 0c38-59 85-87 141-83-52 25-88 62-108 112Z" fill="#28583d"/><text x="48" y="75" fill="#17605b" font-family="Georgia,serif" font-size="34" font-weight="700">GOA</text>
+</svg>
