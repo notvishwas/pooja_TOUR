@@ -10,7 +10,7 @@ function TravelIllustration() {
       </div>
       <div className="overflow-hidden rounded-3xl border border-brand-navy/10 bg-secondary shadow-[var(--shadow-card)]">
         <Image
-          src="/images/homepage.png"
+          src="/images/packages/homepage.png"
           alt="Illustrated mountain road with a travel vehicle"
           width={800}
           height={620}
