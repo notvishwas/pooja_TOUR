@@ -130,7 +130,7 @@ function SiteFooter() {
         </div>
 
         <div className="flex flex-col gap-4 border-t border-white/15 py-6 text-xs text-white/60 md:flex-row md:items-center md:justify-between">
-          <p>© {currentYear} {siteConfig.name}. All rights reserved.</p>
+          <p>© {currentYear} {siteConfig.name}, Prop. {siteConfig.owner.name}. All rights reserved.</p>
           <nav aria-label="Legal navigation">
             <ul className="flex flex-wrap gap-x-5 gap-y-2">
               {policyNavigation.map((item) => (

@@ -202,7 +202,7 @@ function PackageCatalogue({ packages }: { packages: readonly TravelPackage[] }) 
       <div className="mt-8 flex items-center justify-between gap-4">
         <p className="text-sm text-muted-foreground" aria-live="polite">
           Showing <strong className="text-foreground">{filteredPackages.length}</strong> of{" "}
-          {packages.length} mock packages
+          {packages.length} packages
         </p>
       </div>
 
@@ -217,7 +217,7 @@ function PackageCatalogue({ packages }: { packages: readonly TravelPackage[] }) 
           <SearchX aria-hidden="true" className="mx-auto size-10 text-brand-gold-dark" />
           <h2 className="mt-4 text-2xl font-semibold">No packages match these filters</h2>
           <p className="mx-auto mt-2 max-w-md text-sm leading-6 text-muted-foreground">
-            Try a broader search or reset the filters to see the full mock catalogue.
+            Try a broader search or reset the filters to see the full catalogue.
           </p>
           <Button type="button" className="mt-5" onClick={resetFilters}>
             Reset filters

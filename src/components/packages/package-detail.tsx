@@ -119,7 +119,7 @@ function PackageDetail({ travelPackage }: PackageDetailProps) {
               </p>
               {travelPackage.originalPrice ? (
                 <p className="text-sm text-muted-foreground line-through">
-                  <span className="sr-only">Original mock price </span>
+                  <span className="sr-only">Original price </span>
                   {formatIndianRupees(travelPackage.originalPrice)}
                 </p>
               ) : null}

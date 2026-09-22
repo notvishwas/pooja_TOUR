@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, MapPin } from "lucide-react";
 
@@ -19,18 +20,25 @@ function DestinationCard({ destination }: { destination: DestinationPreview }) {
     <article className="group overflow-hidden rounded-2xl border bg-white shadow-[var(--shadow-card)] transition-[transform,box-shadow] duration-300 motion-safe:hover:-translate-y-1 hover:shadow-lg">
       <div
         className={cn(
-          "relative grid aspect-[16/9] place-items-center overflow-hidden",
+          "relative aspect-[16/9] overflow-hidden",
           destinationTones[destination.tone],
         )}
       >
-        <span className="absolute -top-8 -right-8 size-32 rounded-full border-[20px] border-white/35" />
-        <span className="absolute bottom-4 left-5 h-1.5 w-16 rounded-full bg-current/20" />
-        <HomeIcon
-          name={destination.icon}
-          aria-hidden="true"
-          className="size-14 transition-transform duration-300 motion-safe:group-hover:scale-105"
-          strokeWidth={1.5}
+        <Image
+          src={destination.image}
+          alt={`${destination.name}, ${destination.region}`}
+          fill
+          sizes="(max-width: 639px) calc(100vw - 2rem), (max-width: 1023px) 50vw, 33vw"
+          className="object-cover transition-transform duration-500 motion-safe:group-hover:scale-[1.035]"
         />
+        <span className="absolute top-4 left-4 grid size-9 place-items-center rounded-full bg-white/90 shadow-sm">
+          <HomeIcon
+            name={destination.icon}
+            aria-hidden="true"
+            className="size-5"
+            strokeWidth={1.5}
+          />
+        </span>
       </div>
       <div className="p-5">
         <div className="flex items-start justify-between gap-3">

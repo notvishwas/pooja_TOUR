@@ -13,9 +13,6 @@ function TestimonialCard({ testimonial }: TestimonialCardProps) {
         <span className="grid size-10 place-items-center rounded-full bg-secondary text-primary">
           <Quote aria-hidden="true" className="size-5" />
         </span>
-        <span className="rounded-full border border-brand-gold/30 bg-brand-gold-light/10 px-3 py-1 text-xs font-bold text-brand-gold-dark">
-          Mock testimonial
-        </span>
       </div>
       <blockquote className="mt-5 flex-1 text-base leading-7 text-foreground">
         “{testimonial.quote}”

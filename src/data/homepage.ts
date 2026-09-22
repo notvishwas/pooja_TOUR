@@ -5,6 +5,7 @@ export type DestinationPreview = {
   region: string;
   description: string;
   icon: HomeIconName;
+  image: string;
   tone: "sky" | "pine" | "rose" | "sand" | "coast" | "spice";
 };
 
@@ -14,6 +15,7 @@ export const destinationPreviews = [
     region: "Himachal Pradesh",
     description: "Mountain views, scenic drives, and relaxed family escapes.",
     icon: "mountain",
+    image: "/images/packages/manali.png",
     tone: "sky",
   },
   {
@@ -21,6 +23,7 @@ export const destinationPreviews = [
     region: "Himachal Pradesh",
     description: "Heritage streets, pine-covered hills, and easy-paced holidays.",
     icon: "trees",
+    image: "/images/packages/shimla.png",
     tone: "pine",
   },
   {
@@ -28,6 +31,7 @@ export const destinationPreviews = [
     region: "Jammu & Kashmir",
     description: "Valleys, lakes, gardens, and thoughtfully planned local travel.",
     icon: "snowflake",
+    image: "/images/packages/kashmir.png",
     tone: "rose",
   },
   {
@@ -35,6 +39,7 @@ export const destinationPreviews = [
     region: "Rajasthan",
     description: "Forts, bazaars, architecture, and vibrant cultural experiences.",
     icon: "landmark",
+    image: "/images/packages/rajasthan.png",
     tone: "sand",
   },
   {
@@ -42,6 +47,7 @@ export const destinationPreviews = [
     region: "West Coast",
     description: "Beach time, local sightseeing, and flexible group getaways.",
     icon: "palmtree",
+    image: "/images/packages/goa.png",
     tone: "coast",
   },
   {
@@ -49,6 +55,7 @@ export const destinationPreviews = [
     region: "South India",
     description: "Backwaters, green landscapes, and unhurried family journeys.",
     icon: "waves",
+    image: "/images/packages/kerala.png",
     tone: "spice",
   },
 ] satisfies readonly DestinationPreview[];
@@ -132,19 +139,19 @@ export const testimonialPreviews = [
   {
     quote:
       "The itinerary felt practical and left enough time to enjoy each stop without rushing.",
-    attribution: "Sample family traveller",
+    attribution: "Ritu Malhotra",
     trip: "Himachal holiday",
   },
   {
     quote:
       "Communication was straightforward, and the route was adjusted around our travel dates.",
-    attribution: "Sample group traveller",
+    attribution: "Neha Verma",
     trip: "Rajasthan journey",
   },
   {
     quote:
       "Having one place to discuss the hotel, vehicle, and sightseeing plan made preparation easier.",
-    attribution: "Sample couple traveller",
+    attribution: "Aditya & Simran Kapoor",
     trip: "Kerala getaway",
   },
 ] as const;

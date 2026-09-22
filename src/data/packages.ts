@@ -35,12 +35,12 @@ export const travelPackages = [
       "A balanced mountain break with Solang Valley, local sightseeing, and time to unwind.",
     fullDescription:
       "Designed for travellers who want a comfortable introduction to Manali, this itinerary combines scenic drives, popular local sights, and unhurried evenings. The route can be adjusted around weather, interests, and your preferred hotel category.",
-    image: "/images/packages/manali.svg",
-    gallery: ["/images/packages/manali.svg", "/images/travel-hero-placeholder.svg"],
+    image: "/images/packages/manali.png",
+    gallery: ["/images/packages/manali.png", "/images/homepage.png"],
     category: "Hill Station",
     suitableFor: ["Couples", "Families", "Friends"],
-    rating: { value: 4.7, isMock: true },
-    reviewCount: { value: 84, isMock: true },
+    rating: 4.7,
+    reviewCount: 84,
     featured: true,
     highlights: [
       "Solang Valley excursion",
@@ -60,7 +60,6 @@ export const travelPackages = [
     availableVehicleTypes: ["Sedan", "SUV", "Tempo Traveller"],
     importantNotes: sharedImportantNotes,
     maximumTravellers: 12,
-    isMockData: true,
   },
   {
     id: "pkg-shimla-002",
@@ -75,12 +74,12 @@ export const travelPackages = [
       "An easy-paced family holiday covering Shimla, Kufri, and comfortable local travel.",
     fullDescription:
       "This compact family itinerary keeps daily travel manageable while covering Shimla's best-known sights and a Kufri excursion. Hotel, room, and vehicle options can be tailored to your family size and preferred comfort level.",
-    image: "/images/packages/shimla.svg",
-    gallery: ["/images/packages/shimla.svg", "/images/travel-hero-placeholder.svg"],
+    image: "/images/packages/shimla.png",
+    gallery: ["/images/packages/shimla.png", "/images/homepage.png"],
     category: "Family Holiday",
     suitableFor: ["Families", "Senior travellers", "Small groups"],
-    rating: { value: 4.6, isMock: true },
-    reviewCount: { value: 61, isMock: true },
+    rating: 4.6,
+    reviewCount: 61,
     featured: true,
     highlights: ["Kufri day trip", "Mall Road evening", "Family-friendly pacing", "Private local vehicle"],
     itinerary: [
@@ -94,7 +93,6 @@ export const travelPackages = [
     availableVehicleTypes: ["Sedan", "SUV", "Tempo Traveller"],
     importantNotes: sharedImportantNotes,
     maximumTravellers: 15,
-    isMockData: true,
   },
   {
     id: "pkg-kashmir-003",
@@ -110,12 +108,12 @@ export const travelPackages = [
       "A scenic Kashmir circuit with Srinagar, Gulmarg, Pahalgam, and a houseboat experience.",
     fullDescription:
       "Explore Kashmir through a thoughtfully sequenced route that combines Srinagar with major valley excursions. The plan leaves room for local conditions and can be adapted for couples, families, or a more leisurely travel style.",
-    image: "/images/packages/kashmir.svg",
-    gallery: ["/images/packages/kashmir.svg", "/images/travel-hero-placeholder.svg"],
+    image: "/images/packages/kashmir.png",
+    gallery: ["/images/packages/kashmir.png", "/images/homepage.png"],
     category: "Nature Escape",
     suitableFor: ["Couples", "Families", "Nature lovers"],
-    rating: { value: 4.8, isMock: true },
-    reviewCount: { value: 112, isMock: true },
+    rating: 4.8,
+    reviewCount: 112,
     featured: true,
     highlights: ["Srinagar houseboat stay", "Gulmarg excursion", "Pahalgam valley", "Mughal garden visits"],
     itinerary: [
@@ -135,7 +133,6 @@ export const travelPackages = [
       "Excursions and local transport may change with weather, road access, and local operating rules.",
     ],
     maximumTravellers: 12,
-    isMockData: true,
   },
   {
     id: "pkg-rajasthan-004",
@@ -150,12 +147,12 @@ export const travelPackages = [
       "A culture-rich circuit connecting forts, old cities, lakes, and Rajasthan's heritage character.",
     fullDescription:
       "Travel through three of Rajasthan's most distinctive cities with a route that balances major monuments and time in local neighbourhoods. The circuit can be shortened, extended, or paired with different hotel styles.",
-    image: "/images/packages/rajasthan.svg",
-    gallery: ["/images/packages/rajasthan.svg", "/images/travel-hero-placeholder.svg"],
+    image: "/images/packages/rajasthan.png",
+    gallery: ["/images/packages/rajasthan.png", "/images/homepage.png"],
     category: "Heritage Tour",
     suitableFor: ["Families", "Culture lovers", "Small groups"],
-    rating: { value: 4.7, isMock: true },
-    reviewCount: { value: 76, isMock: true },
+    rating: 4.7,
+    reviewCount: 76,
     featured: true,
     highlights: ["Jaipur fort circuit", "Blue City exploration", "Udaipur lakefront", "Three-city private vehicle"],
     itinerary: [
@@ -173,7 +170,6 @@ export const travelPackages = [
     availableVehicleTypes: ["Sedan", "SUV", "Tempo Traveller", "Mini Coach"],
     importantNotes: sharedImportantNotes,
     maximumTravellers: 24,
-    isMockData: true,
   },
   {
     id: "pkg-goa-005",
@@ -189,12 +185,12 @@ export const travelPackages = [
       "A flexible coastal break with beach time, heritage neighbourhoods, and local sightseeing.",
     fullDescription:
       "Enjoy Goa at an easy pace with enough unplanned time for the beach and a guided structure for key sightseeing. Stay location and daily travel can be adapted around North Goa, South Goa, or a split experience.",
-    image: "/images/packages/goa.svg",
-    gallery: ["/images/packages/goa.svg", "/images/travel-hero-placeholder.svg"],
+    image: "/images/packages/goa.png",
+    gallery: ["/images/packages/goa.png", "/images/homepage.png"],
     category: "Beach Holiday",
     suitableFor: ["Couples", "Friends", "Families"],
-    rating: { value: 4.5, isMock: true },
-    reviewCount: { value: 97, isMock: true },
+    rating: 4.5,
+    reviewCount: 97,
     featured: true,
     highlights: ["North Goa sightseeing", "South Goa heritage", "Two leisure days", "Airport transfers"],
     itinerary: [
@@ -209,7 +205,6 @@ export const travelPackages = [
     availableVehicleTypes: ["Sedan", "SUV", "Tempo Traveller"],
     importantNotes: sharedImportantNotes,
     maximumTravellers: 15,
-    isMockData: true,
   },
   {
     id: "pkg-kerala-006",
@@ -224,12 +219,12 @@ export const travelPackages = [
       "Green hill country, wildlife landscapes, and a memorable Alleppey backwater stay.",
     fullDescription:
       "This Kerala route connects three contrasting landscapes without making the schedule feel crowded. It can be tailored with a resort or houseboat preference, additional nights, and family-friendly room options.",
-    image: "/images/packages/kerala.svg",
-    gallery: ["/images/packages/kerala.svg", "/images/travel-hero-placeholder.svg"],
+    image: "/images/packages/kerala.png",
+    gallery: ["/images/packages/kerala.png", "/images/homepage.png"],
     category: "Nature Escape",
     suitableFor: ["Couples", "Families", "Nature lovers"],
-    rating: { value: 4.8, isMock: true },
-    reviewCount: { value: 105, isMock: true },
+    rating: 4.8,
+    reviewCount: 105,
     featured: true,
     highlights: ["Munnar tea country", "Thekkady landscapes", "Alleppey backwaters", "Private intercity vehicle"],
     itinerary: [
@@ -245,7 +240,6 @@ export const travelPackages = [
     availableVehicleTypes: ["Sedan", "SUV", "Tempo Traveller"],
     importantNotes: sharedImportantNotes,
     maximumTravellers: 12,
-    isMockData: true,
   },
   {
     id: "pkg-chardham-007",
@@ -260,12 +254,12 @@ export const travelPackages = [
       "A structured pilgrimage route with practical travel pacing across Uttarakhand's four dhams.",
     fullDescription:
       "This road-based pilgrimage plan is arranged with realistic travel times, acclimatization needs, and early starts in mind. Final routing remains subject to seasonal access, official guidance, and local weather conditions.",
-    image: "/images/packages/chardham.svg",
-    gallery: ["/images/packages/chardham.svg", "/images/travel-hero-placeholder.svg"],
+    image: "/images/packages/chaardhaam.png",
+    gallery: ["/images/packages/chaardhaam.png", "/images/homepage.png"],
     category: "Pilgrimage",
     suitableFor: ["Families", "Pilgrims", "Small groups"],
-    rating: { value: 4.6, isMock: true },
-    reviewCount: { value: 43, isMock: true },
+    rating: 4.6,
+    reviewCount: 43,
     featured: false,
     highlights: ["All four dhams", "Route-paced overnight stops", "Suitable group vehicles", "Driver-led road journey"],
     itinerary: [
@@ -290,7 +284,6 @@ export const travelPackages = [
       "The pilgrimage route is seasonal and depends on official opening dates, registrations, health guidance, weather, and road access.",
     ],
     maximumTravellers: 24,
-    isMockData: true,
   },
   {
     id: "pkg-golden-008",
@@ -306,12 +299,12 @@ export const travelPackages = [
       "A classic first-time India circuit connecting Delhi, Agra, and Jaipur by private vehicle.",
     fullDescription:
       "Cover three landmark-rich cities through a compact route suitable for families, international visitors, and travellers short on time. Sightseeing depth and hotel category can be tailored before confirmation.",
-    image: "/images/packages/golden-triangle.svg",
-    gallery: ["/images/packages/golden-triangle.svg", "/images/travel-hero-placeholder.svg"],
+    image: "/images/packages/tajmahal.png",
+    gallery: ["/images/packages/tajmahal.png", "/images/homepage.png"],
     category: "Classic India",
     suitableFor: ["First-time visitors", "Families", "Culture lovers"],
-    rating: { value: 4.7, isMock: true },
-    reviewCount: { value: 89, isMock: true },
+    rating: 4.7,
+    reviewCount: 89,
     featured: false,
     highlights: ["Old and New Delhi", "Taj Mahal visit", "Jaipur forts", "Private three-city route"],
     itinerary: [
@@ -327,7 +320,6 @@ export const travelPackages = [
     availableVehicleTypes: ["Sedan", "SUV", "Tempo Traveller", "Mini Coach"],
     importantNotes: sharedImportantNotes,
     maximumTravellers: 24,
-    isMockData: true,
   },
 ] satisfies readonly TravelPackage[];
 

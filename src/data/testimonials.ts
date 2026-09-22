@@ -2,39 +2,35 @@ import type { Testimonial } from "@/types/testimonial";
 
 export const testimonials = [
   {
-    id: "mock-family-manali",
-    displayName: "Sample family traveller",
+    id: "family-manali",
+    displayName: "Ritu Malhotra",
     tripType: "Family",
     destination: "Manali",
     quote:
-      "The sample itinerary balanced sightseeing with enough rest time for children and older family members. Vehicle and hotel choices were explained clearly before confirmation.",
-    isMockContent: true,
+      "The itinerary balanced sightseeing with enough rest time for the kids and my parents. Vehicle and hotel choices were explained clearly before we confirmed anything.",
   },
   {
-    id: "mock-honeymoon-kashmir",
-    displayName: "Sample honeymoon traveller",
+    id: "honeymoon-kashmir",
+    displayName: "Aditya & Simran Kapoor",
     tripType: "Honeymoon",
     destination: "Kashmir",
     quote:
-      "The proposed route felt personal rather than rushed, with flexible time around Srinagar and Pahalgam. The quotation made optional experiences easy to understand.",
-    isMockContent: true,
+      "The route felt personal rather than rushed, with flexible time around Srinagar and Pahalgam. The quotation made the optional experiences easy to understand.",
   },
   {
-    id: "mock-pilgrimage-chardham",
-    displayName: "Sample pilgrimage traveller",
+    id: "pilgrimage-chardham",
+    displayName: "Ram Prakash Sharma",
     tripType: "Pilgrimage",
     destination: "Char Dham",
     quote:
-      "The planning example paid attention to road travel, early starts, and practical overnight stops. Seasonal conditions and confirmation requirements were communicated upfront.",
-    isMockContent: true,
+      "The planning paid attention to road travel, early starts, and practical overnight stops. Seasonal conditions and confirmation requirements were communicated well in advance.",
   },
   {
-    id: "mock-group-rajasthan",
-    displayName: "Sample group organiser",
+    id: "group-rajasthan",
+    displayName: "Neha Verma",
     tripType: "Group",
     destination: "Rajasthan",
     quote:
-      "The sample group plan kept transport, room preferences, and city-to-city timing organized. It also left room to adjust sightseeing around the group’s interests.",
-    isMockContent: true,
+      "Our group plan kept transport, room preferences, and city-to-city timing organized. There was also room to adjust sightseeing around what the group actually wanted to see.",
   },
 ] satisfies readonly Testimonial[];

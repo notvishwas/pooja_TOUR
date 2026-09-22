@@ -3,15 +3,18 @@ export const siteConfig = {
   shortName: "POOJA TOUR",
   description:
     "Thoughtful tour planning and dependable travel support for memorable journeys across India and beyond.",
+  owner: {
+    name: "Dr. Abhishek Kumar",
+  },
   contact: {
-    isPlaceholder: true,
-    phoneDisplay: "+91 00000 00000",
-    phoneHref: "tel:+910000000000",
-    whatsAppDisplay: "+91 00000 00000",
-    whatsAppHref: "https://wa.me/910000000000",
-    email: "your-email@example.com",
-    emailHref: "mailto:your-email@example.com",
-    address: "Office address to be confirmed",
+    isPlaceholder: false,
+    phoneDisplay: "+91 79821 60912",
+    phoneHref: "tel:+917982160912",
+    whatsAppDisplay: "+91 79821 60912",
+    whatsAppHref: "https://wa.me/917982160912",
+    email: "poojatravelss.delhi95@gmail.com",
+    emailHref: "mailto:poojatravelss.delhi95@gmail.com",
+    address: "A-579, Shahbad Dairy, Delhi-110042",
   },
   hours: {
     weekdays: "Monday–Saturday: 9:00 AM–7:00 PM",

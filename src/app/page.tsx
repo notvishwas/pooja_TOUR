@@ -184,7 +184,7 @@ export default function Home() {
             <SectionHeading
               eyebrow="Featured packages"
               title="Popular journeys to start exploring"
-              description="Compare a few mock package ideas, then open the full catalogue to search by destination, category, or duration."
+              description="Compare a few featured package ideas, then open the full catalogue to search by destination, category, or duration."
               align="left"
               inverse
             />
@@ -240,7 +240,7 @@ export default function Home() {
             <SectionHeading
               eyebrow="Testimonials preview"
               title="The kind of experience we aim to create"
-              description="The feedback below is sample copy for layout review and will be replaced with verified traveller testimonials before launch."
+              description="A few words from travellers who planned their trips with us."
             />
           </div>
           <div className="mt-10 grid gap-5 lg:grid-cols-3">

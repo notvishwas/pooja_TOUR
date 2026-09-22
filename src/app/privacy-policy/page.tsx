@@ -52,7 +52,7 @@ const sections: readonly PolicySection[] = [
   {
     title: "Contact",
     paragraphs: [
-      `Privacy questions may be directed to ${siteConfig.name} at ${siteConfig.contact.email} or ${siteConfig.contact.phoneDisplay}. These are currently placeholder contact details.`,
+      `Privacy questions may be directed to ${siteConfig.name} at ${siteConfig.contact.email} or ${siteConfig.contact.phoneDisplay}.`,
     ],
   },
 ];

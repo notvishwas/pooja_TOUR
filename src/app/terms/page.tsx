@@ -12,7 +12,7 @@ const sections: readonly PolicySection[] = [
   {
     title: "Website and enquiry use",
     paragraphs: [
-      "Website content is provided for general travel-planning information. Package descriptions, sample itineraries, images, ratings, review counts, and prices currently marked as mock or starting information are not binding offers.",
+      "Website content is provided for general travel-planning information. Package descriptions, itineraries, images, ratings, review counts, and starting prices are not binding offers.",
       "Submitting a website form, calling, or sending a message creates an enquiry only. It does not reserve hotels, vehicles, tickets, activities, or any other service.",
     ],
   },

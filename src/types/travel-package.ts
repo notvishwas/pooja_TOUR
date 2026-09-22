@@ -13,11 +13,6 @@ export type VehicleType =
   | "Tempo Traveller"
   | "Mini Coach";
 
-export type MockMetric = {
-  value: number;
-  isMock: true;
-};
-
 export type ItineraryDay = {
   day: number;
   title: string;
@@ -40,8 +35,8 @@ export type TravelPackage = {
   gallery: readonly string[];
   category: PackageCategory;
   suitableFor: readonly string[];
-  rating: MockMetric;
-  reviewCount: MockMetric;
+  rating: number;
+  reviewCount: number;
   featured: boolean;
   highlights: readonly string[];
   itinerary: readonly ItineraryDay[];
@@ -50,5 +45,4 @@ export type TravelPackage = {
   availableVehicleTypes: readonly VehicleType[];
   importantNotes: readonly string[];
   maximumTravellers: number;
-  isMockData: true;
 };

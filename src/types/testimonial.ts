@@ -6,5 +6,4 @@ export type Testimonial = {
   tripType: TripType;
   destination: string;
   quote: string;
-  isMockContent: true;
 };

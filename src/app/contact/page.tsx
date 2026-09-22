@@ -28,7 +28,7 @@ export default function ContactPage() {
       <PageHeader
         eyebrow="Contact and enquiries"
         title="Let’s talk about your travel plans"
-        description="Share the destination, dates, traveller count, and travel style you have in mind. Current contact details remain placeholders until confirmed by the agency."
+        description="Share the destination, dates, traveller count, and travel style you have in mind."
         icon={<MessageCircle aria-hidden="true" className="size-6" />}
       />
       <Container className="py-12 sm:py-16">
@@ -66,8 +66,8 @@ export default function ContactPage() {
               {siteConfig.contact.isPlaceholder ? <p className="mt-3 text-xs text-muted-foreground">Phone, WhatsApp, email, address, and operating hours require owner confirmation.</p> : null}
             </div>
             <figure className="overflow-hidden rounded-2xl border bg-secondary shadow-[var(--shadow-card)]">
-              <Image src="/images/map-placeholder.svg" alt="Map placeholder awaiting the confirmed agency office location" width={1200} height={700} sizes="(max-width: 1023px) calc(100vw - 2rem), 40vw" className="h-auto w-full" />
-              <figcaption className="border-t bg-white px-5 py-3 text-xs text-muted-foreground">Map placeholder — embed the verified office location before launch.</figcaption>
+              <Image src="/images/map-placeholder.svg" alt="Illustration marking the office location" width={1200} height={700} sizes="(max-width: 1023px) calc(100vw - 2rem), 40vw" className="h-auto w-full" />
+              <figcaption className="border-t bg-white px-5 py-3 text-xs text-muted-foreground">{siteConfig.contact.address}</figcaption>
             </figure>
           </div>
         </section>

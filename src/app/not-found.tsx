@@ -12,7 +12,7 @@ export default function NotFoundPage() {
         <p className="mt-5 text-sm font-bold tracking-[0.16em] text-brand-gold-dark uppercase">404 · Route not found</p>
         <h1 className="mt-3 text-4xl font-semibold">This journey is not available</h1>
         <p className="mx-auto mt-4 max-w-xl leading-7 text-muted-foreground">
-          The package or page may have moved. Return to the catalogue to explore the available mock packages.
+          The package or page may have moved. Return to the catalogue to explore the available packages.
         </p>
         <Link href="/packages" className={`${buttonVariants({ size: "lg" })} mt-7`}>
           Explore Packages

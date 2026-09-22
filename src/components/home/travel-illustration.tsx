@@ -3,14 +3,14 @@ import Image from "next/image";
 function TravelIllustration() {
   return (
     <div className="relative mx-auto w-full max-w-xl">
-      <div className="absolute -top-3 -right-3 hidden rounded-xl bg-white px-4 py-3 shadow-[var(--shadow-card)] sm:block">
+      <div className="absolute z-20 -top-3 -right-3 hidden rounded-xl bg-white px-4 py-3 shadow-[var(--shadow-card)] sm:block">
         <p className="text-xs font-bold tracking-wide text-brand-gold-dark uppercase">
           Made for your pace
         </p>
       </div>
       <div className="overflow-hidden rounded-3xl border border-brand-navy/10 bg-secondary shadow-[var(--shadow-card)]">
         <Image
-          src="/images/travel-hero-placeholder.svg"
+          src="/images/homepage.png"
           alt="Illustrated mountain road with a travel vehicle"
           width={800}
           height={620}

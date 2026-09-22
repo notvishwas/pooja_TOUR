@@ -16,6 +16,7 @@ import {
 import { Container } from "@/components/layout/container";
 import { PageCta } from "@/components/layout/page-cta";
 import { PageHeader } from "@/components/layout/page-header";
+import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
   title: "About Us",
@@ -60,6 +61,9 @@ export default function AboutPage() {
               <p>
                 The packages on this website are useful starting points rather than rigid promises. Final hotels, vehicles, activities, prices, and availability are confirmed through a tailored quotation.
               </p>
+              <p>
+                {siteConfig.name} is run by {siteConfig.owner.name}, based out of our Delhi office, and every enquiry is reviewed personally before a quotation is shared.
+              </p>
             </div>
           </div>
           <figure className="overflow-hidden rounded-3xl border bg-secondary shadow-[var(--shadow-card)]">
@@ -71,9 +75,6 @@ export default function AboutPage() {
               sizes="(max-width: 1023px) calc(100vw - 2rem), 50vw"
               className="h-auto w-full"
             />
-            <figcaption className="border-t bg-white px-5 py-3 text-xs text-muted-foreground">
-              Temporary agency illustration — replaceable with an approved team or office image.
-            </figcaption>
           </figure>
         </section>
 
