@@ -44,7 +44,7 @@ function BrandLogo({ className, inverse = false }: BrandLogoProps) {
             inverse ? "text-brand-gold-light" : "text-brand-gold-dark",
           )}
         >
-          &amp; Travells
+          &amp; Travells Agency
         </span>
       </span>
     </Link>

@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "POOJA TOUR & TRAVELLS",
+  name: "POOJA TOUR & TRAVELLS AGENCY",
   shortName: "POOJA TOUR",
   description:
     "Thoughtful tour planning and dependable travel support for memorable journeys across India and beyond.",
@@ -25,6 +25,7 @@ export const siteConfig = {
 export const primaryNavigation = [
   { label: "Home", href: "/" },
   { label: "Packages", href: "/packages" },
+  { label: "Vehicles", href: "/vehicles" },
   { label: "About Us", href: "/about" },
   { label: "Testimonials", href: "/testimonials" },
   { label: "Contact Us", href: "/contact" },

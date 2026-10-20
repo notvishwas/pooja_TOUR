@@ -27,9 +27,9 @@ export const travelPackages = [
     title: "Manali Getaway",
     destination: "Manali",
     stateOrRegion: "Himachal Pradesh",
-    duration: 5,
-    nights: 4,
-    startingPrice: 18900,
+    duration: 4,
+    nights: 3,
+    startingPrice: 15000,
     originalPrice: 21500,
     shortDescription:
       "A balanced mountain break with Solang Valley, local sightseeing, and time to unwind.",
@@ -70,6 +70,7 @@ export const travelPackages = [
     duration: 4,
     nights: 3,
     startingPrice: 16400,
+    originalPrice: 20500,
     shortDescription:
       "An easy-paced family holiday covering Shimla, Kufri, and comfortable local travel.",
     fullDescription:
@@ -102,8 +103,8 @@ export const travelPackages = [
     stateOrRegion: "Jammu & Kashmir",
     duration: 7,
     nights: 6,
-    startingPrice: 32900,
-    originalPrice: 36500,
+    startingPrice: 25200,
+    originalPrice: 30500,
     shortDescription:
       "A scenic Kashmir circuit with Srinagar, Gulmarg, Pahalgam, and a houseboat experience.",
     fullDescription:
@@ -140,9 +141,10 @@ export const travelPackages = [
     title: "Rajasthan Heritage Circuit",
     destination: "Jaipur, Jodhpur & Udaipur",
     stateOrRegion: "Rajasthan",
-    duration: 8,
-    nights: 7,
-    startingPrice: 34900,
+    duration: 5,
+    nights: 4,
+    startingPrice: 26900,
+    originalPrice: 32900,
     shortDescription:
       "A culture-rich circuit connecting forts, old cities, lakes, and Rajasthan's heritage character.",
     fullDescription:
@@ -247,9 +249,10 @@ export const travelPackages = [
     title: "Char Dham Yatra",
     destination: "Yamunotri, Gangotri, Kedarnath & Badrinath",
     stateOrRegion: "Uttarakhand",
-    duration: 12,
-    nights: 11,
-    startingPrice: 46900,
+    duration: 8,
+    nights: 7,
+    startingPrice: 34999,
+    originalPrice: 42500,
     shortDescription:
       "A structured pilgrimage route with practical travel pacing across Uttarakhand's four dhams.",
     fullDescription:
@@ -289,7 +292,7 @@ export const travelPackages = [
     id: "pkg-golden-008",
     slug: "golden-triangle-tour",
     title: "Golden Triangle Tour",
-    destination: "Delhi, Agra & Jaipur",
+    destination: "Agra, Mathura & Vrindavan",
     stateOrRegion: "North India",
     duration: 6,
     nights: 5,
@@ -306,7 +309,7 @@ export const travelPackages = [
     rating: 4.7,
     reviewCount: 89,
     featured: false,
-    highlights: ["Old and New Delhi", "Taj Mahal visit", "Jaipur forts", "Private three-city route"],
+    highlights: [ "Taj Mahal visit", "Private three-city route", "Flexible hotel and vehicle options"],
     itinerary: [
       { day: 1, title: "Arrive in Delhi", description: "Meet your vehicle, transfer to the hotel, and rest." },
       { day: 2, title: "Delhi sightseeing", description: "Explore selected heritage and modern city landmarks." },

@@ -6,11 +6,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "POOJA TOUR & TRAVELLS",
-    template: "%s | POOJA TOUR & TRAVELLS",
+    default: "POOJA TOUR & TRAVELLS AGENCY",
+    template: "%s | POOJA TOUR & TRAVELLS AGENCY",
   },
   description:
-    "Thoughtfully planned tours and dependable travel services from POOJA TOUR & TRAVELLS.",
+    "Thoughtfully planned tours and dependable travel services from POOJA TOUR & TRAVELLS AGENCY.",
 };
 
 export default function RootLayout({

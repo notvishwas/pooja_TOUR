@@ -18,6 +18,7 @@ import { TravelIllustration } from "@/components/home/travel-illustration";
 import { Container } from "@/components/layout/container";
 import { PackageCard } from "@/components/packages/package-card";
 import { buttonVariants } from "@/components/ui/button";
+import { VehicleRental } from "@/components/vehicles/vehicle-rental";
 import {
   destinationPreviews,
   frequentlyAskedQuestions,
@@ -200,6 +201,21 @@ export default function Home() {
             {featuredTravelPackages.slice(0, 3).map((travelPackage) => (
               <PackageCard key={travelPackage.id} travelPackage={travelPackage} />
             ))}
+          </div>
+        </Container>
+      </section>
+
+      <section className="border-y bg-white py-16 sm:py-20" aria-labelledby="vehicles-title">
+        <Container>
+          <div id="vehicles-title">
+            <SectionHeading
+              eyebrow="Vehicle rental"
+              title="Choose your ride, pick your distance"
+              description="Slide to the kilometres you plan to travel and compare the estimated price for each vehicle."
+            />
+          </div>
+          <div className="mt-10">
+            <VehicleRental />
           </div>
         </Container>
       </section>
